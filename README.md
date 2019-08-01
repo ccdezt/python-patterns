@@ -8,8 +8,8 @@ Current Patterns
 
 __Creational Patterns__:
 
-| Pattern | Description |
-|:-------:| ----------- |
+| Pattern | Description | My comments |
+|:-------:| ----------- | ----------- |
 | [abstract_factory](patterns/creational/abstract_factory.py) | use a generic function with specific factories | This is about sending a class object or a method as param into another object, and use that object as polymorphism |
 | [borg](patterns/creational/borg.py) | a singleton with shared-state among instances |
 | [builder](patterns/creational/builder.py) | instead of using multiple constructors, builder object receives parameters and returns constructed objects |
