@@ -12,7 +12,7 @@ __Creational Patterns__:
 |:-------:| ----------- | ----------- |
 | [abstract_factory](patterns/creational/abstract_factory.py) | use a generic function with specific factories | This is about sending a class object or a method as param into another object, and use that object as polymorphism |
 | [borg](patterns/creational/borg.py) | a singleton with shared-state among instances | This talks about -all- instances of an object sharing the same states, e.g. db connection |
-| [builder](patterns/creational/builder.py) | instead of using multiple constructors, builder object receives parameters and returns constructed objects |
+| [builder](patterns/creational/builder.py) | instead of using multiple constructors, builder object receives parameters and returns constructed objects | using abstraction with buildings as an example |
 | [factory](patterns/creational/factory.py) | delegate a specialized function/method to create instances |
 | [lazy_evaluation](patterns/creational/lazy_evaluation.py) | lazily-evaluated property pattern in Python |
 | [pool](patterns/creational/pool.py) | preinstantiate and maintain a group of instances of the same type |
