@@ -20,14 +20,14 @@ __Creational Patterns__:
 
 __Structural Patterns__:
 
-| Pattern | Description |
-|:-------:| ----------- |
+| Pattern | Description | My comments |
+|:-------:| ----------- | ----------- |
 | [3-tier](patterns/structural/3-tier.py) | data<->business logic<->presentation separation (strict relationships) |
 | [adapter](patterns/structural/adapter.py) | adapt one interface to another using a white-list |
 | [bridge](patterns/structural/bridge.py) | a client-provider middleman to soften interface changes |
 | [composite](patterns/structural/composite.py) | lets clients treat individual objects and compositions uniformly |
 | [decorator](patterns/structural/decorator.py) | wrap functionality with other functionality in order to affect outputs |
-| [facade](patterns/structural/facade.py) | use one class as an API to a number of others |
+| [facade](patterns/structural/facade.py) | use one class as an API to a number of others | setting classes as private vars |
 | [flyweight](patterns/structural/flyweight__py3.py) | transparently reuse existing instances of objects with similar/identical state |
 | [front_controller](patterns/structural/front_controller.py) | single handler requests coming to the application |
 | [mvc](patterns/structural/mvc.py) | model<->view<->controller (non-strict relationships) |
