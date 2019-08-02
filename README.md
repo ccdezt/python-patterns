@@ -61,9 +61,9 @@ __Design for Testability Patterns__:
 
 __Fundamental Patterns__:
 
-| Pattern | Description |
-|:-------:| ----------- |
-| [delegation_pattern](patterns/fundamental/delegation_pattern.py) | an object handles a request by delegating to a second object (the delegate) |
+| Pattern | Description | My comments |
+|:-------:| ----------- | ----------- |
+| [delegation_pattern](patterns/fundamental/delegation_pattern.py) | an object handles a request by delegating to a second object (the delegate) | an interesting way of having inheritance functionality without using inheritance |
 
 __Others__:
 
