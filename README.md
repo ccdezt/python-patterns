@@ -35,9 +35,9 @@ __Structural Patterns__:
 
 __Behavioral Patterns__:
 
-| Pattern | Description |
-|:-------:| ----------- |
-| [chain_of_responsibility](patterns/behavioral/chain_of_responsibility__py3.py) | apply a chain of successive handlers to try and process the data |
+| Pattern | Description | My comments |
+|:-------:| ----------- | ----------- |
+| [chain_of_responsibility](patterns/behavioral/chain_of_responsibility__py3.py) | apply a chain of successive handlers to try and process the data | priv var assigned as next object; method to check if object exist then call its check_range method |
 | [catalog](patterns/behavioral/catalog.py) | general methods will call different specialized methods based on construction parameter |
 | [chaining_method](patterns/behavioral/chaining_method.py) | continue callback next object method |
 | [command](patterns/behavioral/command.py) | bundle a command and arguments to call later |
